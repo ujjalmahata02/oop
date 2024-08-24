@@ -26,8 +26,8 @@ int main()
 {
     int b[] = {1, 2, 3, 4 , 5, 6, 7, 8, 9};
     array A(b, 10);
-    cout<<"The third element = "<<A[2]<<endl; // Array is in the right side it returns value
-    A[2] = 200; // Array is in left side so it returns address
+    cout<<"The third element = "<<A[2]<<endl;
+    A[2] = 200; 
     cout<<endl<<"The third element is = "<<A[2];
     return 0;
 }

@@ -7,13 +7,12 @@ private:
     double imag;
 
 public:
-    // Constructor to initialize complex number
-    Complex(double r = 0, double i = 0) : real(r), imag(i) {}
+     Complex(double r = 0, double i = 0) : real(r), imag(i) {}
 
-    // Friend function to overload the binary '+' operator
+    
     friend Complex operator+(const Complex& c1, const Complex& c2);
 
-    // Function to display the complex number
+   
     void display() const {
         cout << real;
         if (imag >= 0)
@@ -23,7 +22,7 @@ public:
     }
 };
 
-// Definition of the friend function to overload '+'
+
 Complex operator+(const Complex& c1, const Complex& c2) {
     return Complex(c1.real + c2.real, c1.imag + c2.imag);
 }
