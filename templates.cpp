@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std; 
 
 template <typename T>
 T add(T a, T b) {
@@ -6,8 +7,8 @@ T add(T a, T b) {
 }
 
 int main() {
-    std::cout << "Sum of integers: " << add(5, 3) << std::endl;
-    std::cout << "Sum of doubles: " << add(5.5, 3.3) << std::endl;
+    cout << "Sum of integers: " << add(5, 3) << endl;
+    cout << "Sum of doubles: " << add(5.5, 3.3) << endl;
 
     return 0;
 }
