@@ -2,6 +2,7 @@
 #include<conio.h>
 using namespace std;
 
+
 class time
 {
     int hours, minutes;
