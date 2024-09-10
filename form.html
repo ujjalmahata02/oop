@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Form</title>
+</head>
+<body>
+    <h2>Sample Form</h2>
+    <form action="/submit_form" method="post">
+        <!-- Text input field -->
+        <label for=" name"> first Name:</label>
+        
+        <input type="text" placeholder="Your first  Name" required><br><br>
+        <label for="name">last name</label>
+        <input type="text" placholder="your last name" requires><br><br>
+
+        <!-- Email input field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+        <label for="email"> Main Email</label>
+        <input type="emil" id="ujjal email" name="email" placeholder="your colege Email" required><br><br>
+
+        <!-- Password input field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="password">conform password:</label>
+        <input type="conform password" id= conform password name=" conform password"required><br><br>
+
+        <!-- Radio buttons -->s
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="other"></label>other</label>
+        <input for="other">
+
+        <!-- Checkbox -->
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <!-- Dropdown selection -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="nepal">nepal</option>
+            <option value="india">bharat</option>
+        </select><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
