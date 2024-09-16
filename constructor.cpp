@@ -14,7 +14,7 @@
 
 
 };
-     constructor :: constructor()
+     constructor::constructor()
 {
     a=0;
     b=0;
