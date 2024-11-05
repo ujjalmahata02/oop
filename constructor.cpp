@@ -1,8 +1,11 @@
+#include<iostream>
+using namespace std ;
+class constructor
 {
     int a,b;
     public:constructor();
    
-    constructor(int int);
+    constructor(int,int);
     void display()
     {
         
@@ -14,7 +17,7 @@
 
 
 };
-     constructor::constructor()
+constructor::constructor()
 {
     a=0;
     b=0;
@@ -28,10 +31,10 @@ constructor::constructor(int x,int y)
 int main()
 {
     constructor c1,c2;
-    constructor c3(5,7),c4(4,4)
+    constructor c3(5,7),c4(4,4);
     c1.display();
-    c2.dispaly();
+    c2.display();
     c3.display();
-    c4.dispaly();
+    c4.display();
     return 0;
 }
