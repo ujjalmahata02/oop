@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+class A
+{
+    int num 1,num 2;
+    public:
+    void person()
+    {
+        cout<<"Enter two number:";
+        cin>>num 1,num 2;
+        s=num 1+num 2;
+        cout<<"addtion"<<s<<endl;
+
+    }
+    void person(int a,int b)
+    {
+        m=a*b;
+        cout<<"multiplication"<<m<<endl;
+
+    }
+};
+int main()
+{
+    A.obj;
+    obj.person();
+    obj.person(10,20)
+    return 0;
+    
+}

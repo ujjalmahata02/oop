@@ -1,18 +1,27 @@
-#include<iostream.h>
-using namespace srd;
-privite:()ujjal
-{
-    cout<<my name is ujjal singh mahATA;
+#include<iostream>
+using namespace std;
+class A
 
-}
-bublic:()mehata
-{
-cout<<my name is rajesh;
-cin>>sum23
-sum=obj 1+obj 2
-}
+int count=0
+
+   {
+    public:
+       A()
+       {
+        
+        cout<<"object"<<++count<<"created";
+
+       }
+
+    ~A()
+
+       {
+        cout<<"object"<<count--<<"deallocated"<<endl;
+
+       }
+};
 int main()
-obj 1 ujjal;
-obj 2 mehata;
-obj 3 sum;
-return 0;
+{
+    A obj,obj 2;
+    return 0;
+}
